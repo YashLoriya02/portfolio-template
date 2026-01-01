@@ -1,4 +1,4 @@
-# Portfolio Website (Next.js)
+# Portfolio Website
 
 This repo is a ready-to-deploy single-page portfolio built with **Next.js + TypeScript + Tailwind**.
 
@@ -17,7 +17,7 @@ This repo is a ready-to-deploy single-page portfolio built with **Next.js + Type
 ## Update Your Content
 Your data is stored here:
 
-**`src/data/draft.json`**
+**`/data/draft.json`**
 
 Edit that file and redeploy.
 
