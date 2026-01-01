@@ -82,7 +82,7 @@ export function TemplateMinimal({ draft }: { draft: PortfolioDraft }) {
                 </div>
 
                 {/* Summary */}
-                <div className="mt-8 max-w-3xl">
+                <div className="mt-8 max-w-full">
                     <p className="text-base leading-relaxed text-white/75">
                         {p.summary || "Add a short summary to introduce yourself."}
                     </p>
