@@ -1,4 +1,4 @@
-export type TemplateId = "minimal" | "glass" | "neo" | "classic";
+export type TemplateId = "minimal" | "glass" | "neo" | "classic" | "aurora" | "terminal" | 'editorial';
 
 export type PortfolioDraft = {
     updatedAt: number;

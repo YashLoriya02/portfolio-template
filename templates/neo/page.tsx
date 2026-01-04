@@ -48,7 +48,7 @@ export function TemplateNeo({ draft }: { draft: PortfolioDraft }) {
                 <div className="absolute top-1/3 -right-32 h-96 w-96 rounded-full bg-white/10 blur-3xl" />
             </div>
 
-            <div className="relative mx-auto max-w-6xl px-6 py-12">
+            <div className="relative mx-auto max-w-7xl px-6 py-12">
                 {/* Hero */}
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur">
                     <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
