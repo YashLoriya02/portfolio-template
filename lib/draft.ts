@@ -1,7 +1,10 @@
 export type TemplateId = "minimal" | "glass" | "neo" | "classic" | "aurora" | "terminal" | 'editorial';
 
+export type ThemeMode = "dark" | "light";
+
 export type PortfolioDraft = {
     updatedAt: number;
+    theme: "dark",
     responsibilities: Array<string>,
     templateId: TemplateId;
     profile: {
@@ -44,6 +47,7 @@ export const DRAFT_KEY = "pb_draft_v1";
 
 export const defaultDraft: PortfolioDraft = {
     updatedAt: Date.now(),
+    theme: "dark",
     responsibilities: [],
     templateId: "glass",
     profile: {

@@ -1,7 +1,10 @@
 export type TemplateId = "minimal" | "glass" | "neo" | "classic" | "aurora" | "terminal" | 'editorial';
 
+export type ThemeMode = "dark" | "light";
+
 export type PortfolioDraft = {
     updatedAt: number;
+    theme?: ThemeMode;
     responsibilities: string;
     templateId: TemplateId;
     profile: {
