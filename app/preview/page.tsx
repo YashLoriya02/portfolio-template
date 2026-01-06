@@ -7,6 +7,11 @@ import GlassTemplate from "@/templates/glass/page";
 import { TemplateEditorial } from "@/templates/editorial/page";
 import { TemplateAurora } from "@/templates/aurora/page";
 import { TemplateTerminal } from "@/templates/terminal/page";
+import { TemplateOrbit } from "@/templates/orbit/page";
+import { TemplateTimeline } from "@/templates/timeline/page";
+import { TemplatePaper } from "@/templates/paper/page";
+import { TemplateMuse } from "@/templates/muse/page";
+import { TemplateSpotlight } from "@/templates/spotlight/page";
 
 
 const map: Record<TemplateId, any> = {
@@ -17,10 +22,15 @@ const map: Record<TemplateId, any> = {
   editorial: TemplateEditorial,
   aurora: TemplateAurora,
   terminal: TemplateTerminal,
+  spotlight: TemplateSpotlight,
+  muse: TemplateMuse,
+  paper: TemplatePaper,
+  timeline: TemplateTimeline,
+  orbit: TemplateOrbit,
 };
 
 export default function Page() {
-    const draft = loadDraftFromJson();
-    const T = map[draft.templateId] ?? GlassTemplate;
-    return <T draft={draft} />;
+  const draft = loadDraftFromJson();
+  const T = map[draft.templateId] ?? GlassTemplate;
+  return <T draft={draft} />;
 }
