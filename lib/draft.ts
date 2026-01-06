@@ -4,7 +4,7 @@ export type ThemeMode = "dark" | "light";
 
 export type PortfolioDraft = {
     updatedAt: number;
-    theme: "dark",
+    theme: ThemeMode,
     responsibilities: Array<string>,
     templateId: TemplateId;
     profile: {
